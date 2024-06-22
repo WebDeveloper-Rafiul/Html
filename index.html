@@ -31,10 +31,11 @@
 <body>
   <nav>
     <ul>
-      <li><a href="#">Home </a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Skill</a></li>
+      <li><a href="#into" title="Visit Home page">Home </a></li>
+      <li><a href="#" title="Visit Home page">About</a></li>
+      <li><a href="#contact" title="Visit Home page">Contact</a></li>
+      <li><a href="#project" title="Visit Home page">progect</a></li>
+      <li><a href="#skill" title="Visit Home page">Skill</a></li>
 
     </ul>
   </nav>
@@ -107,21 +108,38 @@
   </section>
   <section id="contact">
     <h2>Contact From</h2>
+    <!-- Names -->
     <form>
-      <label for="name"><strong>Name:</strong></label>
-      <input type="text" name="name" id="name" placeholder="Enter your Name" required>
-      <br> <br>
-      <label for="email"><strong>Email:</strong></label>
-      <input type="email" name="email" id="email" placeholder="Enter your Email" required>
-      <br> <br>
-      <label for="Password"><strong>Password:</strong></label>
-      <input type="password" name="password" id="password" placeholder="Enter your Password" required min="6"
-        maxlength="8" required>
-      <div>
+      <fieldset>
+        <legend>Personal information</legend>
+        <div>
+          <label for="name"><strong>Name:</strong></label>
+          <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+        </div>
+        <!-- emails -->
         <br>
-        <textarea name="massage" id="massage" cols="30" rows="5">Massage</textarea>
+        <div>
+          <label for="email"><strong>Email:</strong></label>
+          <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+        </div>
+        <br>
+        <!-- Passwords -->
+        <div>
+          <label for="Password"><strong>Password:</strong></label>
+          <input type="password" name="password" id="password" placeholder="Enter your Password" required min="6"
+            maxlength="8" required>
+        </div>
+      </fieldset>
+
+
+      <br> <br>
+      <!-- Ranges -->
+      <div>
+        <label for="Year">Year</label>
+        <input type="range" name="Year" id="Year" required min="2" max="10">
       </div>
       <br>
+      <!-- Selection -->
       <div>
         <label for="">Programing</label>
         <select name="Programing" id="Programing">
@@ -131,6 +149,20 @@
           <option value="React js">React js</option>
         </select required>
       </div>
+      <!-- color -->
+      <br>
+      <div>
+        <label for="color">Chose your color</label>
+        <input type="color" name="color" id="color" value="#f00000">
+      </div>
+
+      <div>
+        <br>
+        <textarea name="massage" id="massage" cols="30" rows="5">Massage</textarea>
+      </div>
+
+      <br>
+
       <br>
 
       <input type="datetime-local" name="datetime-local id="">

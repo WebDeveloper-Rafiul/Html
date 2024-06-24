@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  background-color: rgb(173, 182, 213);
+}
+h1 {
+  background-color: green;
+  color: #fff;
+}
+p {
+  background-color: rgb(180, 195, 221);
+  padding: 7px;
+}
+h2 {
+  color: darkred;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: azure;
+}
+.foote,
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(27, 31, 22);
+  color: #fff;
+}

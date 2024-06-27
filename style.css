@@ -11,7 +11,7 @@
   --footer-colour: #071952;
   --text-colour: #0000;
   --Button-colour: #4b70f5;
-  --cart-background-colour: #088395;
+  --cart-background-colour: #f1f1f1;
 }
 
 nav ul {
@@ -28,6 +28,7 @@ nav ul li a {
 }
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: var(--colour);
 }
 main {
   width: 80%;
@@ -79,9 +80,6 @@ button:hover {
   width: 100%;
   border-radius: 5px;
   box-shadow: 0 0.02rem 0.04rem var();
-}
-img {
-  align-items: center;
 }
 
 footer {
